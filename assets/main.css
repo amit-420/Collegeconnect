@@ -54,6 +54,11 @@ basic
     text-align: center;
     font-family: sans-serif;
 }
+body{
+    background-color: rgb(6, 19, 1);
+    
+}
+
 h1{
     box-sizing: border-box;
     text-align: center;
@@ -126,32 +131,15 @@ main{
 }
 a {
     color: rgb(123, 252, 36);
-    /* text-decoration: none;
-    padding-top: 3px;
-    margin-top: 5px;
-    margin-right: 100px;
-    height: 25px;
-    width: 100px;
-    border-radius: 4px;
-    display: inline-block; */
-   
-
 }
 a:hover{
     color: rgba(36, 230, 62, 0.658);
-    /* text-decoration: none;
-    padding-top: 3px;
-    margin-top: 5px;
-    margin-right: 100px;
-    height: 25px;
-    width: 100px;
-    border-radius: 4px;
-    display: inline-block; */
 }
 footer{
     background-color: rgb(6, 19, 1);
     box-sizing: border-box;
-    height: 140px;
+    height: auto;
+    max-height: ;
 
 }
 p{
@@ -159,4 +147,30 @@ p{
 }
 h2 {
     color: rgba(36, 230, 62, 0.658);
+}
+/*
+===========================
+feedback
+===========================
+*/
+form input {
+    margin: 10px 40px;
+    padding: 10px ;
+    border: 4px solid rgb(187, 245, 171);
+    border-radius: 20px;
+    width: 200px;
+}
+form textarea {
+    margin: 10px auto;
+    padding: 10px 25px;
+    border: 4px solid rgb(187, 245, 171);
+    border-radius: 30px;
+}
+footer p {
+    
+    padding-top: auto;
+}
+header {
+    position: sticky;
+    top: 0px;
 }
